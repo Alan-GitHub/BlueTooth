@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B78002B4048E0C6382401F6 /* Pods_BlueToothDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4DF187006C9EA7828BC0A3 /* Pods_BlueToothDemo.framework */; };
+		7BC1107B242DD89F0076435A /* BlueDeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1107A242DD89F0076435A /* BlueDeviceDetailViewController.swift */; };
+		7BC1107D242DDA760076435A /* BlueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1107C242DDA760076435A /* BlueManager.swift */; };
+		7BC1798E242B115800E77D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1798D242B115800E77D49 /* AppDelegate.swift */; };
+		7BC17995242B115800E77D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC17993242B115800E77D49 /* Main.storyboard */; };
+		7BC17997242B115A00E77D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC17996242B115A00E77D49 /* Assets.xcassets */; };
+		7BC1799A242B115A00E77D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC17998242B115A00E77D49 /* LaunchScreen.storyboard */; };
+		7BC179A2242B2E9A00E77D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC179A1242B2E9A00E77D49 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FA6C138F43DC315929EBA88 /* Pods-BlueToothDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemo.release.xcconfig"; path = "Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4617AA20EECDCD5E73761BD3 /* Pods-BlueToothDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemo.debug.xcconfig"; path = "Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7BC1107A242DD89F0076435A /* BlueDeviceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueDeviceDetailViewController.swift; sourceTree = "<group>"; };
+		7BC1107C242DDA760076435A /* BlueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueManager.swift; sourceTree = "<group>"; };
+		7BC1798A242B115800E77D49 /* BlueToothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC1798D242B115800E77D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BC17994242B115800E77D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BC17996242B115A00E77D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC17999242B115A00E77D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BC1799B242B115A00E77D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC179A1242B2E9A00E77D49 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED4DF187006C9EA7828BC0A3 /* Pods_BlueToothDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueToothDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC17987242B115800E77D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78002B4048E0C6382401F6 /* Pods_BlueToothDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		514BF08FBB0C44C05D2BA0F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4617AA20EECDCD5E73761BD3 /* Pods-BlueToothDemo.debug.xcconfig */,
+				3FA6C138F43DC315929EBA88 /* Pods-BlueToothDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BC1107E242E01EB0076435A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1107C242DDA760076435A /* BlueManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7BC1107F242E01FC0076435A /* Mudules */ = {
+			isa = PBXGroup;
+			children = (
+				7BC179A1242B2E9A00E77D49 /* ViewController.swift */,
+				7BC1107A242DD89F0076435A /* BlueDeviceDetailViewController.swift */,
+			);
+			path = Mudules;
+			sourceTree = "<group>";
+		};
+		7BC17981242B115800E77D49 = {
+			isa = PBXGroup;
+			children = (
+				7BC1798C242B115800E77D49 /* BlueToothDemo */,
+				7BC1798B242B115800E77D49 /* Products */,
+				514BF08FBB0C44C05D2BA0F3 /* Pods */,
+				C467D059D32934926E09D335 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC1798B242B115800E77D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1798A242B115800E77D49 /* BlueToothDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC1798C242B115800E77D49 /* BlueToothDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1107F242E01FC0076435A /* Mudules */,
+				7BC1107E242E01EB0076435A /* Manager */,
+				7BC1798D242B115800E77D49 /* AppDelegate.swift */,
+				7BC17993242B115800E77D49 /* Main.storyboard */,
+				7BC17996242B115A00E77D49 /* Assets.xcassets */,
+				7BC17998242B115A00E77D49 /* LaunchScreen.storyboard */,
+				7BC1799B242B115A00E77D49 /* Info.plist */,
+			);
+			path = BlueToothDemo;
+			sourceTree = "<group>";
+		};
+		C467D059D32934926E09D335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4DF187006C9EA7828BC0A3 /* Pods_BlueToothDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC17989242B115800E77D49 /* BlueToothDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC1799E242B115A00E77D49 /* Build configuration list for PBXNativeTarget "BlueToothDemo" */;
+			buildPhases = (
+				9721E00235C6FE63843B44EA /* [CP] Check Pods Manifest.lock */,
+				7BC17986242B115800E77D49 /* Sources */,
+				7BC17987242B115800E77D49 /* Frameworks */,
+				7BC17988242B115800E77D49 /* Resources */,
+				FDF1F06DBDAF17F9C28F82B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothDemo;
+			productName = BlueToothDemo;
+			productReference = 7BC1798A242B115800E77D49 /* BlueToothDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC17982242B115800E77D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "HCP-Company";
+				TargetAttributes = {
+					7BC17989242B115800E77D49 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 7BC17985242B115800E77D49 /* Build configuration list for PBXProject "BlueToothDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BC17981242B115800E77D49;
+			productRefGroup = 7BC1798B242B115800E77D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC17989242B115800E77D49 /* BlueToothDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC17988242B115800E77D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC1799A242B115A00E77D49 /* LaunchScreen.storyboard in Resources */,
+				7BC17997242B115A00E77D49 /* Assets.xcassets in Resources */,
+				7BC17995242B115800E77D49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9721E00235C6FE63843B44EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueToothDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF1F06DBDAF17F9C28F82B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC17986242B115800E77D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC179A2242B2E9A00E77D49 /* ViewController.swift in Sources */,
+				7BC1798E242B115800E77D49 /* AppDelegate.swift in Sources */,
+				7BC1107B242DD89F0076435A /* BlueDeviceDetailViewController.swift in Sources */,
+				7BC1107D242DDA760076435A /* BlueManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BC17993242B115800E77D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC17994242B115800E77D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BC17998242B115A00E77D49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC17999242B115A00E77D49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC1799C242B115A00E77D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BC1799D242B115A00E77D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC1799F242B115A00E77D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4617AA20EECDCD5E73761BD3 /* Pods-BlueToothDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR5K5LQ4UE;
+				INFOPLIST_FILE = BlueToothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.BlueToothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BC179A0242B115A00E77D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA6C138F43DC315929EBA88 /* Pods-BlueToothDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR5K5LQ4UE;
+				INFOPLIST_FILE = BlueToothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.BlueToothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC17985242B115800E77D49 /* Build configuration list for PBXProject "BlueToothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC1799C242B115A00E77D49 /* Debug */,
+				7BC1799D242B115A00E77D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC1799E242B115A00E77D49 /* Build configuration list for PBXNativeTarget "BlueToothDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC1799F242B115A00E77D49 /* Debug */,
+				7BC179A0242B115A00E77D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC17982242B115800E77D49 /* Project object */;
+}
