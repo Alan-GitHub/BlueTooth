@@ -17,6 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   lane :upload do
+    cocoapods
     pgyer(api_key: "ca79d33b069aded70ab9a84fbf803f62", user_key: "6135320e55df2d9d96c642062e22e99b", ipa: "./ipa/KBB_Plus_iOS.ipa", update_description: "update by fastlane")
   end
 end
