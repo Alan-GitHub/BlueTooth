@@ -49,6 +49,9 @@ playground.xcworkspace
 Pods/
 *.podspec
 ipa/
+*.lock
+fastlane/README.md
+
 
 # Carthage
 #
